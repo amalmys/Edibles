@@ -1,0 +1,38 @@
+.menu-section-parent {
+  margin: 0px 188px;
+//   height: 400px;
+  .button-section {
+    line-height: 1px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    .menu-button {
+      color: var(--black);
+      padding: 18px 22px 18px 54px;
+      background-color: var(--yellow);
+      box-shadow: 0px 3px 6px #00000012;
+      border-radius: 15px;
+      line-height: 0px;
+      img {
+        position: absolute;
+        left: 24px;
+        top: 6px;
+      }
+    }
+  }
+  .menu-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    height: 340px;
+  }
+  .proceed-button {
+    color: var(--white);
+    padding: 10px 0px;
+    background-color: var(--green);
+    border-radius: 25px;
+    line-height: 0px;
+    margin: 56px 0px;
+    width: 223px;
+  }
+}

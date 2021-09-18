@@ -1,0 +1,38 @@
+.contact-section {
+  height: 301px;
+  .text {
+    color: var(--white);
+    font-size: 25px;
+    padding-top: 39px;
+    font-weight: bold;
+  }
+  .form {
+    width: 915px;
+    background-color: var(--white);
+    margin: 20px 225px 10px 225px;
+    display: flex;
+    .left-form {
+      padding: 10px 0px;
+      width: 779px;
+      display: flex;
+      justify-content: space-around;
+      .ant-input {
+        width: 338px;
+      }
+    }
+    .form-button {
+      background-color: var(--green);
+      color: var(--white);
+      width: 136px;
+      position: relative;
+      p {
+        font-size: 16px;
+        margin: auto;
+        position: absolute;
+        top: 64px;
+        width: 43px;
+        left: 40px;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.meal-item {
+  color: var(--light-grey);
+
+  .meal-options {
+    height: 279px;
+    border-radius: 20px;
+    position: relative;
+    .toggle-button {
+      bottom: 21px;
+      position: absolute;
+      left: 50px;
+      padding: 8px;
+      background-color: var(--green);
+      border-radius: 15px;
+      .ant-radio-button-wrapper {
+        background-color: var(--green);
+        color: var(--white);
+        border: none;
+        border-radius: 15px;
+      }
+      .ant-radio-button-wrapper-checked {
+        background-color: var(--white);
+        color: var(--black) !important;
+        border: none;
+        border-radius: 15px;
+      }
+    }
+  }
+}

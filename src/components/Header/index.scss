@@ -1,0 +1,29 @@
+.header-section-parent {
+  height: 89px;
+  box-shadow: 0px 3px 6px #0000000d;
+  .header-section {
+    padding: 35px 138px 28px 138px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      position: absolute;
+      height: 77px;
+      left: 1252px;
+      top: 6px;
+    }
+  }
+  .navigation {
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 14px;
+  }
+  .selected-nav {
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--black);
+  }
+}
