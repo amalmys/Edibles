@@ -8,7 +8,12 @@ import Home from "../pages/Home";
 import AboutUs from "../pages/AboutUs";
 import DietPlans from "../pages/DietPlans";
 import { copyRightMessage } from "../utils/constants";
-import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import {
+  Route,
+  BrowserRouter as Router,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 
 const basicLayout = () => {
   return (
@@ -16,6 +21,7 @@ const basicLayout = () => {
       <Header />
       <div>
         <Switch>
+          <Route path="/" exact render={() => <Redirect to="/select-plan" />} />
           <Route path="/select-plan" component={SelectPlan} />
           <Route path="/home" component={Home} />
           <Route path="/about-us" component={AboutUs} />

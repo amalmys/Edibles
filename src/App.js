@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
+          <Route path="/" component={basicLayout} />
           <Route path="/select-plan" component={basicLayout} />
           <Route path="/home" component={basicLayout} />
           <Route path="/about-us" component={basicLayout} />
