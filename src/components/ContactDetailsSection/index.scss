@@ -1,6 +1,19 @@
 .contact-detail-section-parent {
-  margin: 80px 200px 50px 200px;
-  height: 250px;
-  border-bottom: 1px  solid #d6cece;
-  color: blueviolet;
+  margin: 80px 138px 50px 138px;
+  padding-bottom: 40px;
+  // height: 250px;
+  border-bottom: 1px solid #d6cece;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 35px;
+  .content {
+    text-align: left;
+    .label {
+      color: var(--green);
+    }
+    p {
+      color: var(--text-grey);
+      padding-top: 10px;
+    }
+  }
 }

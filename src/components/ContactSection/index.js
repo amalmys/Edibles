@@ -10,7 +10,6 @@ const ContactSection = () => {
       style={{
         backgroundImage: `url(${contactBg})`,
         backgroundSize: "contain",
-        filter: "brightness(78%)",
       }}
     >
       <div style={{ height: "301px", backdropFilter: "brightness(0.8)" }}>
